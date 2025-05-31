@@ -39,6 +39,17 @@ const TextEditor = () => {
   },[socket,quill,documentId])
 
   useEffect(()=>{
+    if(socket==null || quill == null) return;
+    const interval= setInterval(()=>{
+      socket.emit("save-document",quill.getContents())
+
+       return()=>{
+        clearInterval(interval)
+       }
+    },2500)
+  },[socket,quill])
+
+  useEffect(()=>{
     if(socket==null || quill==null) return;
 
     const handler= delta=>{
