@@ -12,6 +12,9 @@ A simple real-time document editor using  Express, MongoDB, and Socket.IO.
 - Simple UI: Focused on editing.
 - Each Document has a separate room.
 
+  
+
+https://github.com/user-attachments/assets/03595834-e0c1-4e41-b2fc-dfa131347557
 ---
 
 ## Getting Started
