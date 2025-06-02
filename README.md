@@ -14,7 +14,7 @@ A simple real-time document editor using  Express, MongoDB, and Socket.IO.
 
   
 
-https://github.com/user-attachments/assets/03595834-e0c1-4e41-b2fc-dfa131347557
+![image alt](https://github.com/user-attachments/assets/03595834-e0c1-4e41-b2fc-dfa131347557)
 ---
 
 ## Getting Started
